@@ -1,7 +1,7 @@
 import App from "@/app";
 import { render } from "@/utils/core/render";
-import { createRoot } from "@/utils/core/hooks";
 import { setupEventDelegation } from "@/utils/core/eventSystem";
+import { createRoot } from "@/utils/core/root";
 
 // console.log(App());
 const container = document.getElementById("app");
